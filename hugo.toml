@@ -1,0 +1,30 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Baloncesto en silla de ruedas'
+theme = "ananke" 
+
+[menu]
+[[menu.main]]
+    name = 'Introduccion'
+    pre = '<i class="fa fa-heart"></i>'
+    url = 'http://localhost:1313/post/primer-post/'
+    weight = 10
+    [menu.main.params]
+      rel = 'external'
+
+[[menu.main]]
+    name = 'Equipos'
+    pre = '<i class="fa fa-heart"></i>'
+    url = 'https://www.bsrespana.es/bsr-competiciones/?&WHurl=%2Fcompetition%2F36394%2Fteams%3F'
+    weight = 20
+    [menu.main.params]
+      rel = 'external'
+
+[[menu.main]]
+    name = 'Clasificacion'
+    pre = '<i class="fa fa-heart"></i>'
+    url = 'https://www.bsrespana.es/bsr-competiciones/?&WHurl=%2Fcompetition%2F36394%2Fstandings%3F'
+    weight = 30
+    [menu.main.params]
+      rel = 'external'
+
